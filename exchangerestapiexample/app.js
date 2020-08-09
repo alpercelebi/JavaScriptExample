@@ -15,7 +15,6 @@ function eventListeners(){
     secondSelect.onchange=function(){
         currency.changeSecondCurrency(secondSelect.options[secondSelect.selectedIndex].textContent);
         ui.secondchange();
-
     };
 }
 
